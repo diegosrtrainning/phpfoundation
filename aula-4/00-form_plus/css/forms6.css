@@ -1,0 +1,32 @@
+@import "forms5.css";
+
+/*Customizando SELECT*/
+select {
+  display: block;
+}
+
+fieldset div.select-container
+{
+    border: 1pt solid lightgray;     
+}
+
+fieldset.erro div
+{
+    border: 1pt solid red; 
+    background-color: #FEE7E2;    
+}
+
+fieldset.erro select
+{
+  color: red;
+}
+
+select{
+  height: 32px;
+  font-family: Tahoma;
+  font-size: 14px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+

@@ -1,0 +1,60 @@
+@import "forms.css";
+@import "forms3.css";
+
+/*Customizando um radio button*/
+
+/* Container checkbox */
+.rb-container {    
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 8pt;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  fieldset.erro .rb-container { 
+      color: red;
+  }
+  /* Oculta o checkbox */
+  .rb-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Cria um radio personalizado */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  fieldset.erro .checkmark{
+    background-color: red;       
+  }
+  
+  .rb-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+    
+  .rb-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+   
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+    
+  .rb-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  

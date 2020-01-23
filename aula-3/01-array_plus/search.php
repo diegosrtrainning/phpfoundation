@@ -6,7 +6,7 @@ $retorno = array_search("red",$a);
 var_dump($retorno);
 
 $b=array("red","green","blue");
-$retorno = array_search("red",$b);
+$retorno = array_search("redr",$b);
 
 var_dump($retorno);
 
