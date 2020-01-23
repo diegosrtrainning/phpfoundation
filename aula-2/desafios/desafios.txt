@@ -1,0 +1,36 @@
+1) Exibir numeros de um a cem
+
+2) Exibir numeros pares de um a cem
+
+3) Os seguintes alunos receberam as seguintes médias anuais: 
+    Paulo=4 
+    Carlos=5 
+    Felipe=6
+    Anna=9
+    Thiago=10
+    
+    Itere sobre um array e exiba a mesagem:
+    - Se média for menor ou igual a 4: {0} seu status é Reprovado com a nota {1}.
+    - Se média for maior ou igual a 4.1 e menor que 6: {0} seu status é Recuperação com a nota {1}.
+    - Se média for maior ou igual a 6.1: {0} seu status é Aprovado com a nota {1}.
+
+    Onde {0} é o nome do aluno e {1} é a nota.
+
+4) Exiba a lista de aprovações em ordem a ordem alfabética
+5) Exiba a lista de aprovações da maio para a menor nota
+
+6) Os seguintes alunos receberam as seguintes médias por bimestre: 
+    Paulo=4, 6, 4, 3 
+    Carlos=5, 8, 2, 1 
+    Felipe=6, 7, 8, 1
+    Anna=9, 8, 10, 10
+    Thiago=10, 8, 7, 9
+    
+    Itere sobre um array e obtenha a média anual e exiba a mesagem:
+    - Se média for menor ou igual a 4: {0} seu status é Reprovado com a nota {1}.
+    - Se média for maior ou igual a 4.1 e menor que 6: {0} seu status é Recuperação com a nota {1}.
+    - Se média for maior ou igual a 6.1: {0} seu status é Aprovado com a nota {1}.
+
+    Onde {0} é o nome do aluno e {1} é a nota.
+
+7) Que tal deixar essa matriz em ordem alfabética?
