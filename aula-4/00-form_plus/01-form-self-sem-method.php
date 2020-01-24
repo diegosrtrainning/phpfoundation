@@ -15,7 +15,7 @@
         }
     ?>
 
-    <form action="<?php $_SERVER["PHP_SELF"]?>">
+    <form method="post" action="<?php $_SERVER["PHP_SELF"]?>">
         <input type="text" name="nome" id="nome">
         <input type="submit" value="OK">
     </form>

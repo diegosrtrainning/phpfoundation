@@ -1,0 +1,19 @@
+@import "forms.css";
+
+input[type="text"]:focus
+{   
+    border: 1pt solid blue; 
+    background-color: lightblue;    
+}
+
+input[type="text"].erro,
+input[type="text"].erro:hover
+{
+    border: 1pt solid red; 
+    background-color: #FEE7E2;    
+}
+
+.erro{
+    font-size: 5pt;
+}
+

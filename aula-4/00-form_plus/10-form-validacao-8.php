@@ -91,14 +91,15 @@
             <div class="select-container">
                 <select name="time">
                     <option value="" <?php if(empty($time)) echo "selected";?>>Selecione o time:</option>
-                    <option value="0" <?php if($time == "0") echo "selected";?>>Palmeiras:</option>
+                    <option value="0" <?php if($time == "0") echo "selected";?>>Palmeiras</option>
                     <option value="1" <?php if($time == "1") echo "selected";?>>Brasil</option>
                     <option value="2" <?php if($time == "2") echo "selected";?>>Nenhum</option>
                 </select>
             </div>
         </fieldset>
 
-        <input class="botao successo" type="submit" value="OK">
+        <input class="botao successo" type="submit" value="Salvar">
+        <input class="botao perigo" type="reset" value="Limpar">
     </form>
     
     <?php 

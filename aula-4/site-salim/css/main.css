@@ -1,0 +1,6 @@
+@import "grid-960.css";
+
+.center{
+    text-align: center;
+    align-content: center;
+}

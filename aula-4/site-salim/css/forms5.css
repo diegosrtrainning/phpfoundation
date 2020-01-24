@@ -1,0 +1,82 @@
+@import "forms.css";
+@import "forms4.css";
+
+/*Customizando um Checkbox*/
+
+.cb-container {  
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  font-size: 8pt;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+fieldset.erro .cb-container { 
+  color: red;
+}
+
+/* Hide the browser's default checkbox */
+.cb-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.cb-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  background-color: #eee;
+  border-radius: 0;
+}
+
+fieldset.erro .cb-container .checkmark{
+  background-color: red;       
+}
+
+/* On mouse-over, add a grey background color */
+.cb-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cb-container input:checked ~ .checkmark,
+.cb-container input:checked ~ .check {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.cb-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cb-container input:checked ~ .checkmark:after,
+.cb-container input:checked ~ .check{
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cb-container .checkmark:after,
+.cb-container input:checked ~ .check {
+  left: 3px;
+  top: 1px;
+  width: 2px;
+  height: 4px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

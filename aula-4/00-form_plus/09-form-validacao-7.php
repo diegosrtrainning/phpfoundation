@@ -10,7 +10,7 @@
 <body>
     <?php
         $nomeErr = "";
-        $nomeErrClass = $generoErrClass = $habilidadesErrClass = $time = "";
+        $nomeErrClass = $generoErrClass = $habilidadesErrClass = $timeErrClass = "";
         $nome = $genero = $habilidades = "";
         $html5 = $css3 = $phpF = $time = false;
 
@@ -89,12 +89,12 @@
         <fieldset class="<?php echo $timeErrClass; ?>">
             <legend>Time</legend>
             <div class="select-container">
-            <select name="time">
-                <option value="" <?php if(empty($time)) echo "selected";?>>Selecione o time:</option>
-                <option value="0" <?php if($time == "0") echo "selected";?>>Palmeiras:</option>
-                <option value="1" <?php if($time == "1") echo "selected";?>>Brasil</option>
-                <option value="2" <?php if($time == "2") echo "selected";?>>Nenhum</option>
-            </select>
+                <select name="time">
+                    <option value="" <?php if(empty($time)) echo "selected";?>>Selecione o time:</option>
+                    <option value="0" <?php if($time == "0") echo "selected";?>>Palmeiras</option>
+                    <option value="1" <?php if($time == "1") echo "selected";?>>Brasil</option>
+                    <option value="2" <?php if($time == "2") echo "selected";?>>Nenhum</option>
+                </select>
             </div>
         </fieldset>
 

@@ -34,15 +34,15 @@
         <fieldset>
             <legend>Genero</legend>
             <label class="rb-container">Feminino
-                <input type="radio" name="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>>
+                <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>>
                 <span class="checkmark"></span>
             </label>
             <label class="rb-container">Masculino
-                <input type="radio" name="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>>
+                <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>>
                 <span class="checkmark"></span>
             </label>
             <label class="rb-container">Outro
-                <input type="radio" name="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>>
+                <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>>
                 <span class="checkmark"></span>
             </label>
         </fieldset>

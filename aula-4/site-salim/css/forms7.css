@@ -1,0 +1,24 @@
+@import "forms6.css";
+
+/*Cutomizando botão*/
+.botao {
+  border: none;
+  color: white; 
+  padding: 8px 28px;
+  cursor: pointer;
+}
+
+.successo {background-color: #4CAF50;} /* Green */
+.successo:hover {background-color: #46a049;}
+
+.informativo {background-color: #2196F3;} /* Blue */
+.informativo:hover {background: #0b7dda;}
+
+.alerta {background-color: #ff9800;} /* Orange */
+.alerta:hover {background: #e68a00;}
+
+.perigo {background-color: #f44336;} /* Red */
+.perigo:hover {background: #da190b;}
+
+.padrao {background-color: #e7e7e7; color: black;} /* Gray */
+.padrao:hover {background: #ddd;}
