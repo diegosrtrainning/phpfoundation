@@ -27,7 +27,7 @@
             </div>            
             <div class="grid_6">
                 <fieldset class="<?php echo $generoErrClass; ?>">
-                    <?php echo criarRadioList("Genero", "genero", $generos);?>                
+                    <?php echo criarRadioList("Genero", "genero", $generos);?>
                 </fieldset>
             </div>        
             <div class="clear"></div>
@@ -57,14 +57,6 @@
                 <input class="botao successo" type="submit" value="OK">
             </div>
         </form>
-    </div>
-    <?php 
-        function test_input($texto) {
-            $texto = trim($texto);
-            $texto = stripslashes($texto);
-            $texto = htmlspecialchars($texto);
-            return $texto;
-        }
-    ?>
+    </div>   
 </body>
 </html>
