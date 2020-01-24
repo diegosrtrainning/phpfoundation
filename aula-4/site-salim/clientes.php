@@ -33,19 +33,7 @@
             <div class="clear"></div>
             <div class="grid_4">
                 <fieldset class="<?php echo $habilidadesErrClass; ?>">
-                    <legend>Habilidades</legend>
-                    <label class="cb-container">HTML5
-                        <input type="checkbox" value="html5" name="habilidades[]" <?php echo $html5;?>>
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="cb-container">CSS3
-                        <input type="checkbox" value="css3" name="habilidades[]" <?php echo $css3;?>>
-                        <span class="checkmark"></span>
-                    </label>        
-                    <label class="cb-container">PHP FOUNDATION
-                        <input type="checkbox" value="phpF" name="habilidades[]" <?php echo $phpF;?>>
-                        <span class="checkmark"></span>
-                    </label>        
+                    <?php echo criarListBox("Habilidades", "habilidades",  $habilidades);?>                       
                 </fieldset>
             </div>            
             <div class="grid_4">
