@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Notebook HP",
+        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
+        "imagem": "media/vitrine/notebook.jpg",
+        "preco": "1000"
+    },
+    {
+        "nome": "Iphoe",
+        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
+        "imagem": "media/vitrine/iphone.jpg",
+        "preco": "5000"
+    },
+    {
+        "nome": "Mi true wireless",
+        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
+        "imagem": "media/vitrine/mi.jpg",
+        "preco": "1099.99"
+    },
+    {
+        "nome": "HD Externo",
+        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
+        "imagem": "media/vitrine/hd.jpg",
+        "preco": "1099.99"
+    },
+    {
+        "nome": "Impressora",
+        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
+        "imagem": "media/vitrine/print.jpg",
+        "preco": "1099.99"
+    },
+    {
+        "nome": "Dulce Gusto",
+        "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
+        "imagem": "media/vitrine/dulce.png",
+        "preco": "1099.99"
+    }
+]
