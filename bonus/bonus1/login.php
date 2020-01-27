@@ -36,7 +36,7 @@
         <img class="mb-4" src="media/logo.png" alt="" width="200">
         <h1 class="h3 mb-3 font-weight-normal">Autenticação</h1>
         <label for="inputEmail" class="sr-only">Email</label>
-        <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" required autofocus value="teste@teste.com">
+        <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" required autofocus value="">
         <label for="inputSenha" class="sr-only">Senha</label>
         <input type="password" id="inputSenha" name="inputSenha" class="form-control" placeholder="Senha" required>
         <span class="erro"><?php echo $erro; ?></span>
