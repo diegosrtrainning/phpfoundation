@@ -24,3 +24,8 @@
     padding: 8px;
     border: 1px solid #c3c3c3;
 }
+
+.form-add,
+.form-rmv{
+    display: inline-block;    
+}

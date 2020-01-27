@@ -1,5 +1,6 @@
 <?php
     include __DIR__ . "/validarsessao.php";
+    include __DIR__ . "/../libs/lib-arrays.php";
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">

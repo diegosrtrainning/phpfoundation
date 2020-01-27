@@ -1,35 +1,41 @@
 [
     {
+        "id": 1,
         "nome": "Notebook HP",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
         "imagem": "media/vitrine/notebook.jpg",
         "preco": "1000"
     },
     {
-        "nome": "Iphoe",
+        "id": 2,
+        "nome": "Iphone",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
         "imagem": "media/vitrine/iphone.jpg",
         "preco": "5000"
     },
     {
+        "id": 3,
         "nome": "Mi true wireless",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
         "imagem": "media/vitrine/mi.jpg",
         "preco": "1099.99"
     },
     {
+        "id": 4,
         "nome": "HD Externo",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
         "imagem": "media/vitrine/hd.jpg",
         "preco": "1099.99"
     },
     {
+        "id": 5,
         "nome": "Impressora",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
         "imagem": "media/vitrine/print.jpg",
         "preco": "1099.99"
     },
     {
+        "id": 6,
         "nome": "Dulce Gusto",
         "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ad neque quod dicta eius, ipsam sint pariatur nulla quibusdam in et, illo magnam laudantium delectus vero! Amet quibusdam suscipit sed?",
         "imagem": "media/vitrine/dulce.png",

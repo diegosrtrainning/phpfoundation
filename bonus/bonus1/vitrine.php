@@ -1,3 +1,12 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {       
+    $id = $_POST["id"];
+
+    $cookie_name = "user";
+    $cookie_value = "Alex Porter";
+    setcookie("itens", $cookie_value, time() + (86400 * 30), "/");    
+}
+?>
 <!doctype html>
 <html lang="pt-br">
 

@@ -7,8 +7,7 @@
 
         if($email === "teste@teste.com" && $senha === "1234"){
             session_start();
-            $_SESSION["nommeUsuario"] = "Diego Rodrigues";       
-            $_SESSION["nome"] = "Anna";
+            $_SESSION["nommeUsuario"] = "Diego Rodrigues";            
             header("Location: vitrine.php");            
             exit;
         } else {
