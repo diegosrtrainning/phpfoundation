@@ -1,4 +1,5 @@
 <?php
+    
     include __DIR__ . "/validarsessao.php";
     include __DIR__ . "/../libs/lib-arrays.php";
 ?>
@@ -26,7 +27,9 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisa</button>
         </form>
         <div class="user-profile">
-            <span class="total-car badge badge-pill badge-primary">5</span>
+            <span class="total-car badge badge-pill badge-danger">
+                <?php echo empty($_COOKIE["carrinho"]) ? 0 : count(json_decode($_COOKIE["carrinho"])); ?>
+            </span>
             <img  src="media/user.png">
         </div>
     </div>

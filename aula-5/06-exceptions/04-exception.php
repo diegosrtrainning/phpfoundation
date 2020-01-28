@@ -19,7 +19,7 @@ try {
 try {
     echo inverse(0) . "\n";
 } catch (Exception $e) {    
-    meuLogFull($e);
+    meuLog($e);
 } finally {
     echo "Segundo finally.\n";
 }

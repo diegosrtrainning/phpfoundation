@@ -12,7 +12,7 @@ var_dump($retorno);
 
 
 $c=array("red","green","blue");
-$retorno = array_search("redo",$c);
+$retorno = array_search("red",$c);
 
 var_dump($retorno);
 

@@ -8,8 +8,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $carrinho = json_decode($_COOKIE["carrinho"]);
     } 
         
-    array_push($carrinho, $id);            
-    setcookie("carrinho", json_encode($carrinho), time() + (86400 * 30), "/"); // 1 dia
+    $idFind = array_search($id,$carrinho);
+    
+    if($idFind !== false){
+        unset($carrinho[$idFind]);
+        $carrinho = array_values($carrinho);        
+
+        setcookie("carrinho", json_encode($carrinho), time() + (86400 * 30), "/"); // 1 dia
+    }            
     
     header("Location: /phpfoundation/bonus/bonus1/vitrine.php");
     exit;

@@ -10,10 +10,10 @@ try {
     echo inverse(5) . "\n";
     echo inverse(0) . "\n";
 } catch (Exception $e) {
-    echo 'Exceção capturada: ',  $e->getMessage(), "\n";    
-    print_r($e);
+    echo "Ops";    
+    //print_r($e);
 }
 
 // Execução continua
-echo "Olá mundo\n";
+//echo "Olá mundo\n";
 ?>

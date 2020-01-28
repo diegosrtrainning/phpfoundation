@@ -1,12 +1,3 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {       
-    $id = $_POST["id"];
-
-    $cookie_name = "user";
-    $cookie_value = "Alex Porter";
-    setcookie("itens", $cookie_value, time() + (86400 * 30), "/");    
-}
-?>
 <!doctype html>
 <html lang="pt-br">
 
@@ -29,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <div id="container" class="container">
             <?php
-                $produtosJson = file_get_contents(__DIR__."\\data\\produtos.json");                
+                $produtosJson = file_get_contents(__DIR__."\\data\\produtos.json");
                 $produtos = json_decode($produtosJson);
 
                 echo '<div class="row card-container">';

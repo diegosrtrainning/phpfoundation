@@ -8,7 +8,7 @@ session_start();
 
 <?php
 
-$_SESSION["nome"] = "Anna";
+$_SESSION["nome"] = "Anna jhjhhjhjjhjhgjh";
 $_SESSION["sobrenome"] = "Raio";
 echo "Session gravada";
 ?>

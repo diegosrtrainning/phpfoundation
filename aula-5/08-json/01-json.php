@@ -1,5 +1,5 @@
 <?php
-$age = array("Peter"=>35, "Ben"=>37, "Joe"=>43);
+$age = array("Nome"=>"peter", "idade"=>37, "sexo"=>"m");
 
 echo json_encode($age);
 

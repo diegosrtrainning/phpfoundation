@@ -7,7 +7,7 @@ function criarItem($produto){
             <h5 class="card-title">'. $produto->nome .'</h5>
             <p class="card-text">'.$produto->descricao.'</p>
             
-                <form method="post" action="rmv-item.php" class="form-rmv">
+                <form method="post" action="includes/vitrine/rmv-item.php" class="form-rmv">
                     <input type="hidden" name="id" value="'. $produto->id .'" />
                     <input type="submit" class="btn btn-danger" value="Remover"/>
                 </form>

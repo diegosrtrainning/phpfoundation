@@ -14,7 +14,7 @@ date_default_timezone_set("america/sao_paulo");
 echo "america/sao_paulo: " . date("h:i:sa") . "\n";
 
 date_default_timezone_set("America/Recife");
-echo "America/Recife: " . date("h:i:sa") . "\n";
+echo "America/Recife: " . date("H:i:s") . "\n";
 
 
 
