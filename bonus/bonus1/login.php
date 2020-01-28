@@ -5,9 +5,16 @@
         $email = $_POST["inputEmail"];
         $senha = $_POST["inputSenha"];
 
-        if($email === "teste@teste.com" && $senha === "1234"){
+        $clientesJson = file_get_contents(__DIR__."\\data\\clientes.json");
+        $clientes = json_decode($clientesJson);                
+
+        $key = array_search($email, array_column($clientes, 'email'));
+
+        $cliente = $clientes[$key];
+
+        if($cliente->senha == $senha) {
             session_start();
-            $_SESSION["nommeUsuario"] = "Diego Rodrigues";            
+            $_SESSION["nommeUsuario"] = $cliente->nome;            
             header("Location: vitrine.php");            
             exit;
         } else {

@@ -49,7 +49,7 @@
         }        
     ?>
     <div class="container_12">
-        <form autocomplete="off" method="post" action="<?php $_SERVER["PHP_SELF"]?>" >            
+        <form autocomplete="off" method="post" action="<?php $_SERVER["PHP_SELF"]?>" >
             <div class="grid_4"> 
                 <fieldset class="<?php echo $nomeErrClass; ?>">
                     <legend>Nome</legend>
